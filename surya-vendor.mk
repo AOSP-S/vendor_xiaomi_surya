@@ -982,7 +982,35 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/surya/proprietary/vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/6_version_update_ecc_table.sql \
     vendor/xiaomi/surya/proprietary/vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/7_version_update_ecc_table.sql \
     vendor/xiaomi/surya/proprietary/vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/8_version_update_ecc_table.sql \
-    vendor/xiaomi/surya/proprietary/vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_version_update_ecc_table.sql
+    vendor/xiaomi/surya/proprietary/vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_version_update_ecc_table.sql \
+    vendor/xiaomi/surya/proprietary/system/etc/fonts.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/fonts.xml \
+    vendor/xiaomi/surya/proprietary/system/fonts/Black.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Black.ttf \
+    vendor/xiaomi/surya/proprietary/system/fonts/BlackItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/BlackItalic.ttf \
+    vendor/xiaomi/surya/proprietary/system/fonts/Bold.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Bold.ttf \
+    vendor/xiaomi/surya/proprietary/system/fonts/BoldItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/BoldItalic.ttf \
+    vendor/xiaomi/surya/proprietary/system/fonts/Condensed-Bold.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Condensed-Bold.ttf \
+    vendor/xiaomi/surya/proprietary/system/fonts/Condensed-BoldItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Condensed-BoldItalic.ttf \
+    vendor/xiaomi/surya/proprietary/system/fonts/Condensed-Italic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Condensed-Italic.ttf \
+    vendor/xiaomi/surya/proprietary/system/fonts/Condensed-Light.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Condensed-Light.ttf \
+    vendor/xiaomi/surya/proprietary/system/fonts/Condensed-LightItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Condensed-LightItalic.ttf \
+    vendor/xiaomi/surya/proprietary/system/fonts/Condensed-Medium.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Condensed-Medium.ttf \
+    vendor/xiaomi/surya/proprietary/system/fonts/Condensed-MediumItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Condensed-MediumItalic.ttf \
+    vendor/xiaomi/surya/proprietary/system/fonts/Condensed-Regular.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Condensed-Regular.ttf \
+    vendor/xiaomi/surya/proprietary/system/fonts/Italic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Italic.ttf \
+    vendor/xiaomi/surya/proprietary/system/fonts/Light.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Light.ttf \
+    vendor/xiaomi/surya/proprietary/system/fonts/LightItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/LightItalic.ttf \
+    vendor/xiaomi/surya/proprietary/system/fonts/Medium.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Medium.ttf \
+    vendor/xiaomi/surya/proprietary/system/fonts/MediumItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/MediumItalic.ttf \
+    vendor/xiaomi/surya/proprietary/system/fonts/NotoColorEmoji.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/NotoColorEmoji.ttf \
+    vendor/xiaomi/surya/proprietary/system/fonts/Regular.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Regular.ttf \
+    vendor/xiaomi/surya/proprietary/system/fonts/Thin.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/Thin.ttf \
+    vendor/xiaomi/surya/proprietary/system/fonts/ThinItalic.ttf:$(TARGET_COPY_OUT_SYSTEM)/fonts/ThinItalic.ttf \
+    vendor/xiaomi/surya/proprietary/product/fonts/GoogleSans-Bold.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/GoogleSans-Bold.ttf \
+    vendor/xiaomi/surya/proprietary/product/fonts/GoogleSans-BoldItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/GoogleSans-BoldItalic.ttf \
+    vendor/xiaomi/surya/proprietary/product/fonts/GoogleSans-Italic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/GoogleSans-Italic.ttf \
+    vendor/xiaomi/surya/proprietary/product/fonts/GoogleSans-Medium.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/GoogleSans-Medium.ttf \
+    vendor/xiaomi/surya/proprietary/product/fonts/GoogleSans-MediumItalic.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/GoogleSans-MediumItalic.ttf \
+    vendor/xiaomi/surya/proprietary/product/fonts/GoogleSans-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/GoogleSans-Regular.ttf
 
 PRODUCT_PACKAGES += \
     SoterService \
